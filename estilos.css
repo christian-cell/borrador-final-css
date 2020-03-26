@@ -22,36 +22,64 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+#recomendaciones{
+    float:right;
+    width: 770px;
+    background:#8395a7 ;
+   padding: 20px;
+   
+    height: 300px;
+}
+
 #noticiainit {
-    font-weight: 600;
+    
+    
+    font-weight: 500;
     padding-right: 35px;
     padding-left:40px;
-    font-size: 10px;
-    font-family: cursive;
-    
-    width: 1000px;
-    margin:auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 350px;
+    margin-left: 30px;
     margin-top: 25px;
-    background: #cdfdaf;
+   
 }
 
 
+#frase{
+    padding:15px;
+    
+    width: 810px;
+    float:right;
+    height: 350px;
+    margin-top:20px;
+    background:black;
+    color:white;
+   
+    
+}
+
 .imagen{
-    display:block;
+    margin-left: 30px;
+    
+    
     margin:auto;
 }
 
 
 .izquierda{
     
-    
+    background:#b5d9b9;
+
     
     width:25%;
     margin-top:20px;
     margin-left:30px;
     padding-left: 20px;
     float:left;
-    height: 2000px;
+    height: 1500px;
     font-style: oblique;
     font-family: sans-serif;
     Font-size:16px;
@@ -135,9 +163,14 @@
     margin-left: 100px;
     float:left;
     padding: 20px;
-    height: 2000px;
+    height: 1300px;
+    background:#90ad94;
+
     
 }
+
+
+
 
 
 #encabezado-central{
@@ -175,11 +208,12 @@
     margin-right:30px;
     padding-left: 20px;
     float:right;
-    height: 2000px;
+    height: 1700px;
     font-style: oblique;
     font-family: sans-serif;
     Font-size:16px;
     font-weight: bold;
+    background:#6c826f;
     
 
 }
@@ -236,7 +270,7 @@
     font-size: 12px;
     color:blue;
     font-family: cursive;
-    border:1px solid black;
+    
 }
 
 
@@ -262,13 +296,35 @@
     font-style: oblique;
 }
 
-#pie{
+#formulario{
+    padding:15px;
+    margin-left: 30px;
+    margin-top: 1570px;
+    width: 300px;
+    background:#b5d9b9;
+    height:100px;
+    margin-bottom: 50px;
+   
     
-    width: 2000px;
-    float: left;
-    border:1px solid black;
-    margin-bottom: 1000px;
+
+    
 }
+
+#copyrights{ background:#F79F1F;
+    color:white;
+    padding:20px;
+    width: 400px;
+    margin-left:470px;
+    clear:both;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+
+
+
+
 
 
 
